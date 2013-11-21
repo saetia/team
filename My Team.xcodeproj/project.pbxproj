@@ -199,6 +199,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Byte Studios";
 				TargetAttributes = {
+					5D3C2E5E183D2B8700CDB8B3 = {
+						DevelopmentTeam = 5P57FQZ4FS;
+					};
 					5D3C2E7F183D2B8800CDB8B3 = {
 						TestTargetID = 5D3C2E5E183D2B8700CDB8B3;
 					};
@@ -378,10 +381,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "My Team/My Team-Prefix.pch";
 				INFOPLIST_FILE = "My Team/My Team-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -391,10 +397,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "My Team/My Team-Prefix.pch";
 				INFOPLIST_FILE = "My Team/My Team-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
